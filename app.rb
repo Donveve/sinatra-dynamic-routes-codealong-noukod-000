@@ -18,3 +18,5 @@ get "/goodbye/:name" do
   @user_name = params[:name]
   "Good bye #{@user_name}"
 end
+
+end
